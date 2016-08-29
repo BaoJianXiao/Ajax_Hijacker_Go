@@ -24,8 +24,8 @@ func main() {
 	var conf Cfg
 
 	conf.Port = flag.String("port", "80", "Local Port")
-	conf.Raddr = flag.String("raddr", "10.116.1.16:80", "Remote IP & Port")
-	conf.Static = flag.String("path", "D:\\works\\GO", "Static Resource Folder Path")
+	conf.Raddr = flag.String("raddr", "10.116.9.44:8089", "Remote IP & Port")
+	conf.Static = flag.String("path", "D:\\works\\WeiXinTasks\\backend\\dist", "Static Resource Folder Path")
 	help := flag.Bool("h", false, "help")
 	flag.Parse()
 
